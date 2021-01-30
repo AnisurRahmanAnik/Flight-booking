@@ -13,8 +13,7 @@ body{
     background-attachment: scroll;
     background-size: cover;
 }
-.last{
-    display: flex;
+#last{
     text-align: center;
     margin: 25% auto;
     width: 500px;
@@ -22,10 +21,11 @@ body{
     padding: 25px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #ddd;
+    display: none;
 }
-.last img{
-    width: 100px;
-    height: 100px;
+#last img{
+    width: 200px;
+    height: 200px;
 }
 #last-msg{
     display: none;

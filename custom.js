@@ -59,7 +59,9 @@ function bookNow(){
     }else{
         document.getElementById('main').style.display = 'none'
         document.getElementById('last-msg').innerHTML = 'Congratulation you have brought ' + firstClass.value + ' first class ticket and ' + economy.value + ' economy ticket' 
+        document.getElementById('last').style.display = 'flex'
         document.getElementById('last-msg').style.display = 'block'
+       
     }
-   console.log(typeof firstClass.value)
+   console.log( document.getElementsByClassName('last'))
 }
